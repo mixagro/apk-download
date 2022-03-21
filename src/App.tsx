@@ -1,22 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>QSpray</h1>
+        <h3>fornecido por Mixagro</h3>
+
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Clique no botão abaixo para fazer donwnload do aplicativo Android:
         </p>
+
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="/"
+          style={{
+            textDecoration: "none",
+            background: "#52BE21",
+            padding: "8px 16px",
+            color: "#fff",
+            borderRadius: "5px",
+          }}
         >
-          Learn React
+          Download
         </a>
       </header>
     </div>
